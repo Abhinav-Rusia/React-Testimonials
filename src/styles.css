@@ -1,0 +1,41 @@
+.testimonials {
+  text-align: center;
+  padding: 20px;
+}
+
+.testimonials-item {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.testimonials-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonials-quote {
+  font-style: italic;
+  margin: 20px 0;
+  font-weight: 600;
+}
+
+.testimonials-title {
+  color: gray;
+  font-size: 0.9em;
+}
+
+.testimonials-controls button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.testimonials-controls button:hover {
+  background: #0056b3;
+}
