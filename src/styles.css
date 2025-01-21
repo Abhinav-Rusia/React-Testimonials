@@ -1,6 +1,21 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
 .testimonials {
   text-align: center;
   padding: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px); /* Blur effect for glass look */
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+  width: 80%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .testimonials-item {
@@ -22,7 +37,7 @@
 }
 
 .testimonials-title {
-  color: gray;
+  color: white;
   font-size: 0.9em;
 }
 

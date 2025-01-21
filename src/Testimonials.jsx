@@ -5,53 +5,51 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      author: "John Doe",
+      author: "Mukesh Ambani",
       image:
-        "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://www.google.com/url?sa=i&url=http%3A%2F%2Ft0.gstatic.com%2Flicensed-image%3Fq%3Dtbn%3AANd9GcQFfD2peuQDljoEoroLKmBr0rAPQMKe8ek0s8GiKwXYzX0mA5gfNnviQ5rEdmy-cH04&psig=AOvVaw21UXmf26--9gsomvtDWL32&ust=1737516579829000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCMDo6_3vhYsDFQAAAAAdAAAAABAE",
       title: "Software Engineer",
-      company: "Tidal wave",
+      company: "Reliance Group",
       quote:
         "Working with this team has been an incredible experience. Their attention to detail and dedication to quality are unmatched.",
     },
     {
       id: 2,
-      author: "Jane Smith",
+      author: "Gautam adani",
       image:
-        "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      title: "Graphic Designer",
-      company: "Design Studio B",
-      quote:
-        "Design is not just what it looks like, but how it works. Inspiration drives innovation.",
-    },
-    {
-      id: 3,
-      author: "Michael Brown",
-      image:
-        "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      title: "Product Manager",
-      company: "Tech Innovations Inc.",
+        "https://media.cnn.com/api/v1/images/stellar/prod/240105025129-gautam-adani-11192022.jpg?c=original",
+      title: "Chairperson",
+      company: "Adani Group",
       quote:
         "Leading teams and delivering results is my passion. Collaboration makes all the difference.",
     },
     {
-      id: 4,
-      author: "Emily Davis",
+      id: 3,
+      author: "Amitabh Bachchan",
       image:
-        "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      title: "Content Writer",
-      company: "Creative Words Co.",
+        "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRamZ61AD3ZJdbIfulThBpr4oUie6F1SgxjUimyafQVrIIwpWgdb3-pd8rSUt1gG-_btXCr4LXLnGWIu6Y",
+      title: "Actor",
+      company: "Bollywood",
       quote:
-        "Words can inspire, create connections, and spark ideas. Storytelling is my forte.",
+        "Acting is my forte, and I'm passionate about bringing characters to life on the stage.",
+    },
+    {
+      id: 4,
+      author: "Ratan Naval Tata",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/6/6b/Ratan_Tata_2011_%28The_TCS_Story_Launch_-_CII%29_%28cropped%29.jpg",
+      title: "Former chairperson",
+      company: "Tata Group",
+      quote:
+        "Ups and downs in life are very important to keep us going; a straight line even in an ECG means we are not alive.",
     },
     {
       id: 5,
-      author: "Chris Wilson",
-      image:
-        "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      title: "Data Scientist",
-      company: "Analytics Pro",
-      quote:
-        "Data is the new oil, and turning it into actionable insights is my superpower.",
+      author: "Kapil Dev",
+      image: "https://www.csaspeakersindia.in/media/pictures/profile/4906.png",
+      title: "Former Captain",
+      company: "Indian Cricket Team",
+      quote: "You don't play for the crowd, you play for the country.",
     },
   ];
 
